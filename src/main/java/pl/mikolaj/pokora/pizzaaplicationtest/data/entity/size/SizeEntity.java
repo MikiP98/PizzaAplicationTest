@@ -12,7 +12,7 @@ import java.util.Set;
 @Table(name = "sizes")
 public class SizeEntity {
 
-
+    @javax.persistence.Id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
